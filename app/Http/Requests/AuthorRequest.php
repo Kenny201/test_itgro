@@ -20,8 +20,6 @@ use Override;
 final class AuthorRequest extends FormRequest
 {
     /**
-     * Определяет, авторизован ли пользователь на выполнение этого запроса.
-     *
      * @return bool.
      */
     public function authorize(): bool

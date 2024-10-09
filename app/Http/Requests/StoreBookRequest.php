@@ -20,8 +20,6 @@ use Override;
 final class StoreBookRequest extends FormRequest
 {
     /**
-     * Определяет, авторизован ли пользователь на выполнение этого запроса.
-     *
      * @return bool.
      */
     public function authorize(): bool
