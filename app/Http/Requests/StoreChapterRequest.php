@@ -19,8 +19,6 @@ use Override;
 final class StoreChapterRequest extends FormRequest
 {
     /**
-     * Определяет, авторизован ли пользователь на выполнение этого запроса.
-     *
      * @return bool.
      */
     public function authorize(): bool

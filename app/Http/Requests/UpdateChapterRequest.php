@@ -18,8 +18,6 @@ use Override;
 final class UpdateChapterRequest extends FormRequest
 {
     /**
-     * Определяет, авторизован ли пользователь для выполнения этого запроса.
-     *
      * @return bool
      */
     public function authorize(): bool
